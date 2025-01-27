@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
       {/* children */}
       <div className="min-h-[100vh]">{children}</div>
       {/* footer */}
-      <footer className="flex justify-center items-center mt-[80px] text-[30px]"><h1>طراحی شده توسط سجاد حسنی کاخ</h1></footer>
+      <footer className="flex justify-center items-center mt-[80px] text-[25px] text-[#303030]"><h1>طراحی شده توسط سجاد حسنی کاخ</h1></footer>
     </main>
   );
 };

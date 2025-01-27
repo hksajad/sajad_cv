@@ -12,7 +12,7 @@ const font = localFont({
 
 export const metadata = {
   title: "سجاد حسنی کاخ",
-  description: " طراح و برنامه نویس وب",
+  description: "طراح و برنامه نویس وب / کرمان",
   icons : {
     icon : "/img/logo.png"
   }

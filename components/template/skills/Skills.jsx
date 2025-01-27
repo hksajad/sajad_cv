@@ -25,7 +25,7 @@ const Skills = () => {
               <span className="text-[#303030] text-[30px] font-bold pt-8">
                 {index.caption}
               </span>
-              <h1 className="text-[#303030] text-[25px]  pt-8">{index.title}</h1>
+              <h1 className="text-[#303030] text-[25px]  pt-8 font-serif">{index.title}</h1>
             </div>
           ))}
         </section>
