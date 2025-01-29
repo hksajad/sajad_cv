@@ -1,0 +1,11 @@
+.title_about::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(236, 112, 67);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    opacity: .2;
+    margin-top: -2rem;
+    margin-right: -1rem;
+}

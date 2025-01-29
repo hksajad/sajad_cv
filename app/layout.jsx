@@ -4,7 +4,7 @@ import "./globals.css";
 const font = localFont({
   src: [
     {
-      path: "../public/fonts/ANegaar.ttf",
+      path: "../public/fonts/bahij_roya_irfont.ttf",
     },
   ],
 });
