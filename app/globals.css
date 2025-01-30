@@ -22,7 +22,7 @@ body {
   max-width: 100% !important;
   font-weight: 300;
   overflow-x: hidden;
-  background-color: #161616 ;
+  background-color: #161616;
 }
 main {
   width: 95vw;
@@ -33,6 +33,14 @@ main {
   align-items: center;
   min-height: 100vh;
 }
-h1,h2,h3,h4,h5,h6,span,p,div{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+div {
   color: #fff;
 }

@@ -7,8 +7,8 @@ import { FaPaperPlane } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav className="navbar w-[100%] m-auto md:w-[72px] bg-[#303030] flex justify-center items-center gap-6 md:gap-0 md:flex-col py-3 rounded-md">
-      <ul className="max-md:mt-5">
+    <nav className="navbar w-[100%]  max-lg:mt-4 max-lg:pb-4 lg:w-[72px] bg-[#303030] flex justify-center items-center max-md:gap-6 gap-[65px] lg:gap-[30px] lg:flex-col  rounded-md lg:py-3">
+      <ul className="max-lg:mt-5">
         <Link href="/" className="flex flex-col justify-center items-center">
           <FaUser  className="text-orange-300"/>
           <h1 className="text-orange-300 pt-1">درباره من</h1>
@@ -23,7 +23,7 @@ const Navbar = () => {
       <ul className="mt-5">
         <Link href="/" className="flex flex-col justify-center items-center">
           <FaEye/>
-          <h1 className="pt-1">رزومه</h1>
+          <h1 className="pt-1">پروژه ها</h1>
         </Link>
       </ul>
       <ul className="mt-5">

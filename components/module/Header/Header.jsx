@@ -2,7 +2,7 @@ import Image from "next/image";
 import "./Header.css";
 const Header = () => {
   return (
-    <div className="Header bg-[#303030] w-full md:w-[40%] rounded-md">
+    <div className="Header bg-[#303030] w-full lg:w-[40%] rounded-md">
       <div className="content_header flex flex-col">
         <div className="img_gif_header">
           <Image
