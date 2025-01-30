@@ -9,19 +9,19 @@ const Navbar = () => {
   return (
     <nav className="navbar w-[100%]  max-lg:mt-4 max-lg:pb-4 lg:w-[72px] bg-[#303030] flex justify-center items-center max-md:gap-6 gap-[65px] lg:gap-[30px] lg:flex-col  rounded-md lg:py-3">
       <ul className="max-lg:mt-5">
-        <Link href="/" className="flex flex-col justify-center items-center">
+        <Link href="#about" className="flex flex-col justify-center items-center">
           <FaUser  className="text-orange-300"/>
           <h1 className="text-orange-300 pt-1">درباره من</h1>
         </Link>
       </ul>
       <ul className="mt-5">
-        <Link href="/" className="flex flex-col justify-center items-center">
+        <Link href="#resume" className="flex flex-col justify-center items-center">
           <CiViewList/>
           <h1 className="pt-1">رزومه</h1>
         </Link>
       </ul>
       <ul className="mt-5">
-        <Link href="/" className="flex flex-col justify-center items-center">
+        <Link href="#project" className="flex flex-col justify-center items-center">
           <FaEye/>
           <h1 className="pt-1">پروژه ها</h1>
         </Link>

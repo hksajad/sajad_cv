@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 
 body {
   margin: 0;
-  scroll-behavior: smooth !important;
+  scroll-behavior: smooth;
   width: 100% !important;
   overflow-x: hidden !important;
   max-width: 100% !important;

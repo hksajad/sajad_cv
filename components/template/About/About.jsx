@@ -1,7 +1,7 @@
 import "./About.css";
 const About = () => {
   return (
-    <div className="flex flex-col py-3 ">
+    <div className="flex flex-col py-3 " id="about">
       <div className="title_about px-8">
         <h1 className="text-[30px]">درباره من</h1>
       </div>
