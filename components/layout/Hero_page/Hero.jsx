@@ -4,7 +4,7 @@ import About from "@/components/template/About/About";
 import Work from "@/components/template/Work/Work";
 import './Hero.css'
 import Resume from "@/components/template/resume/Resume";
-import Project from "@/components/template/Project/Project";
+import Blog from "@/components/template/Blog/Blog";
 const Hero = () => {
   return (
     <div className="hero w-full flex flex-col lg:flex-row lg:justify-center lg:items-center gap-3">
@@ -17,7 +17,7 @@ const Hero = () => {
         <About/>
         <Work/>
         <Resume/>
-        <Project/>
+        <Blog/>
       </div>
     </div>
   );

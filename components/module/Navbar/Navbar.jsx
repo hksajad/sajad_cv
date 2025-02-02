@@ -27,13 +27,13 @@ const Navbar = () => {
         </Link>
       </ul>
       <ul className="mt-5">
-        <Link href="/" className="flex flex-col justify-center items-center">
+        <Link href="#blog" className="flex flex-col justify-center items-center">
           <FaBloggerB/>
           <h1 className="pt-1">بلاگ</h1>
         </Link>
       </ul>
       <ul className="mt-5">
-        <Link href="/" className="flex flex-col justify-center items-center">
+        <Link href="#contact" className="flex flex-col justify-center items-center">
           <FaPaperPlane/>
           <h1 className="pt-1">ارتباط با من</h1>
         </Link>
