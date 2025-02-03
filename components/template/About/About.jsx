@@ -18,7 +18,7 @@ const About = () => {
             <span>محل سکونت : کرمان</span>
             <span>تخصص : برنامه نویس فرانت - اند</span>
             <span>تیم : developmart</span>
-            <span>تلفون : 09339790644</span>
+            <span>تلفن : 09339790644</span>
             <span>ایمیل : kakh.sajad@gmail.com</span>
         </div>
       </div>

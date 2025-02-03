@@ -21,17 +21,12 @@ const Navbar = () => {
         </Link>
       </ul>
       <ul className="mt-5">
-        <Link href="#project" className="flex flex-col justify-center items-center">
+        <Link href="/project" className="flex flex-col justify-center items-center">
           <FaEye/>
           <h1 className="pt-1">پروژه ها</h1>
         </Link>
       </ul>
-      <ul className="mt-5">
-        <Link href="#blog" className="flex flex-col justify-center items-center">
-          <FaBloggerB/>
-          <h1 className="pt-1">بلاگ</h1>
-        </Link>
-      </ul>
+     
       <ul className="mt-5">
         <Link href="#contact" className="flex flex-col justify-center items-center">
           <FaPaperPlane/>
