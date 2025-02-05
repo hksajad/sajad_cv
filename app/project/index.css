@@ -1,0 +1,17 @@
+.img_project img{
+    width: 350px;
+    border-radius: 4px;
+    -o-object-position: top center;
+    object-position: top center;
+    transition: all 4s ease-in-out;
+    display: block;
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.img_project:hover img{
+    -o-object-position: bottom center;
+    object-position: bottom center
+}
